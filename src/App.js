@@ -7,6 +7,7 @@ import Deshboard from './components/Deshboard';
 import CreateUser from './components/CreateUser'
 import Login from './components/Login'
 import Navegation from './components/Navegation';
+import Users from './components/users/Users'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Router>
         <Route path = "/" component = {Navegation}/>
         <Route exact path = "/login" component = {Login}/>
-        <Route exact path = "/user" component = {CreateUser}/>
+        <Route exact path = "/user" component = {Users}/>
+
       </Router>
     </div>
   );
